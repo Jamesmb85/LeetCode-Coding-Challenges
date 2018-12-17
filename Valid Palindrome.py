@@ -29,6 +29,8 @@ def isPalindrome(s):
 
     return workingString == workingString[::-1]
 
+    #below was my first attemp before i discovered the isalnum method
+
     # workingArray = []
     #
     # #lets remove all trailing and leading spaces and make everything lowercase
